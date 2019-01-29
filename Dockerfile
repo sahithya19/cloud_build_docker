@@ -1,3 +1,3 @@
 FROM alpine
 COPY quickstart.sh /
-CMD echo "helloworld"
+CMD ["/quickstart.sh"]
