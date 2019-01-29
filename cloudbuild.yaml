@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/my-project/my-image-1', '.']
+  args: ['build', '-t', 'gcr.io/charged-garden-229009/my-image', '.']
   timeout: 50s
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/my-project/my-image-1']
+  args: ['push', 'gcr.io/charged-garden-229009/my-image']
 
