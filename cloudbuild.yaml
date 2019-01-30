@@ -2,6 +2,6 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/charged-garden-229009/my-image', '.']
   timeout: 50s
-tags: ['mytag1', 'mytag2']
+tags: ['mytag1']
 images: ['gcr.io/charged-garden-229009/my-image']
 
