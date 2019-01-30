@@ -1,3 +1,3 @@
 #!/bin/sh
 echo "Hello, world! ************."
-#sleep 10000
+sleep 10000
