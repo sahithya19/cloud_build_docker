@@ -1,3 +1,3 @@
 FROM alpine
 COPY quickstart.sh /
-RUN sh /quickstart.sh
+CMD ["/bin/bash", "/quickstart.sh"]
