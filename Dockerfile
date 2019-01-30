@@ -1,3 +1,3 @@
 FROM alpine
 COPY quickstart.sh /
-RUN /quickstart.sh
+RUN sh /quickstart.sh
