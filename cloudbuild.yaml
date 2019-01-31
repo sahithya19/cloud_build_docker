@@ -1,7 +1,7 @@
 steps:
 - command: touch $IMG.txt
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/charged-garden-229009/my-image', '.']
+  args: ['build', '-t', 'gcr.io/charged-garden-229009/$$IMG', '.']
   timeout: 50s
   env: ['IMG=test']
-images: ['gcr.io/charged-garden-229009/my-image']
+images: ['gcr.io/charged-garden-229009/$$IMG']
