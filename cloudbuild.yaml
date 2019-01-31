@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/charged-garden-229009/$IMG', '.']
+  args: ['build', '-t', 'gcr.io/charged-garden-229009/IMG', '.']
   timeout: 50s
   env: ['IMG=test-env-value']
-images: ['gcr.io/charged-garden-229009/$IMG']
+images: ['gcr.io/charged-garden-229009/IMG']
