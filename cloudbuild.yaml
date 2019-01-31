@@ -4,5 +4,6 @@ steps:
   timeout: 50s
   env:
   - 'TEST_ENV=test-env-value'
+  - 'PROJECT_ID=$PROJECT_ID'
 images: ['gcr.io/charged-garden-229009/my-image']
 
